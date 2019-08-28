@@ -4,3 +4,8 @@ There are some specifiers in the class of C++,
 * private
 * protected
 
+```
+#include <iostream>
+#include <string>
+using namespace std;
+```
