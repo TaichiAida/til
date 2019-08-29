@@ -2,8 +2,8 @@
 There are some type of encoding,
 * UTF-8
 * EUC-JP
-* Shift-JIS
-I want to use only UTF-8, but the file made by someone may be other one.
+* Shift-JIS  
+I want to use only UTF-8, but the file made by someone may be other one.  
 Therefore, I learned how to check, and convert it.
 
 ## Check Encoding
