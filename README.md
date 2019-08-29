@@ -1,2 +1,2 @@
 # Today I Learned. 
-* sololearn (C++) [link](https://www.sololearn.com/Play/CPlusPlus#)
+* [sololearn (C++)](https://www.sololearn.com/Play/CPlusPlus#)
