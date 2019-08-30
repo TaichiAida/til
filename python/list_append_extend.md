@@ -51,4 +51,21 @@ words_A.append(line[0])
 As above, *extend* breaks the element and adds it to the list,  
 *append* adds the element to the list as it is.  
 
+Therefore, *extend* may seem inconvenient at first glance,  
+but useful when combining 2 list.
+```
+fruit_list = ["apple", "banana"]
+comb_ext = ["grape"]
+comb_app = ["grape"]
 
+# extend
+comb_ext.extend(fruit_list)
+# comb_ext: ["grape", "apple", "banana"]
+
+# append
+comb_app.append(fruit_list)
+# comb_app: ["grape", ["apple", "banana"]]
+```
+As above, when we use *append* to combine 2 lists,  
+we obtain the multiple list, but using *extend* can
+get the simple list.
