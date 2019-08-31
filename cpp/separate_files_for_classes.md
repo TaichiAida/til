@@ -30,8 +30,29 @@ In header file, you have to write some lines,
 * #ifndef (name of class)
 * #define (name of class)
 * #endif  
-First, *#ifndef* is "if not defined" that checks (name of class) has already defined or not.
-Then, *#define* can define the class (name of class).
-Finally, you have to conclude the file with *#endif*.
+
+First, **#ifndef** is "if not defined" that checks (name of class) has already defined or not.
+Then, **#define** can define the class (name of class).
+Finally, you have to conclude the file with **#endif**.
 
 ## Source file
+After you define the class in header file (.h), you can write the main function in the source file (.cpp).  
+If you write **Student.h**, you have to **include** it.
+```
+// Student.cpp
+#include <iostream>
+#include "Student.h"
+using namespace std;
+
+Student::Student(){
+    cout << "Hello" << "\n";
+}
+
+int main(){
+    Student obj;
+    return 0;
+}
+
+// Output "Hello" by Student().
+```
+
