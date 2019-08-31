@@ -55,4 +55,6 @@ int main(){
 
 // Output "Hello" by Student().
 ```
+In the code, I wrote "Student::Student(){}".  
+You can use for the constructor definition in "(class name)::(member function name)".
 
