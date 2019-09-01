@@ -36,5 +36,7 @@ int main(){
 In "Student.h", I set the const function as **void myname() const;**.  
 As this code, we have to define the **const** at the **last**.
 
-
+On the other hand, in "Student.cpp", I define the detail of **const** function  
+as **Student::myname() const**.  
+This function can be called by **const class**, **const Student obj** in the main.
 
