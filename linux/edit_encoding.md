@@ -28,3 +28,18 @@ The arguments are below,
 * -s: convert to Shift-JIS
 * --overwrite: overwriting directly
 
+## Line Mode
+```
+$ file (something).txt
+
+// Output: ASCII text, with CRLF line terminators
+```
+
+- CRLF (Win)
+
+```
+(Win → unix)
+$ nkf -Lu --overwrite (something).txt
+```
+
+- u: LF (unix)
